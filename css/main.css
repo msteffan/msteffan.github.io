@@ -147,7 +147,7 @@ a:visited {
 
 .left-text {
     color: black;
-  
+
 }
 
 .writing-image {
@@ -155,7 +155,7 @@ a:visited {
     background: url(../img/WaPoArticle.png) no-repeat center fixed;
     height: 700px;
     padding-top: 200px;
-    padding-bottom: 300px;  
+    padding-bottom: 300px;
 
 }
 
@@ -188,9 +188,6 @@ a:visited {
     width: 100%;
     height: 800px;
     clear: left;
-    
-    
-    
 }
 
 .contact-text {
@@ -205,11 +202,81 @@ a:visited {
 
 
 
+.built-section {
+    background-color: gray;
+    width: 100%;
+    height: 1600px;
+    clear: left;
+}
 
 
+.wide {
+    width: 90%;
+    height: 300px;
+    margin: 100px auto;
+}
 
+.built-header {
+    margin-top: 0;
+    padding: 60px 0 0;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
 
+.project {
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
 
+}
+.description {
+    float: left;
+}
+.project-title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+}
+
+.project-title.last {
+    text-align: center;
+}
+
+.project-bio {
+    padding: 0 20px;
+    color: white;
+}
+
+#timebox {
+    background: url(../img/timebox.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#photoright {
+    background: url(../img/photoright.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+
+#anonymizer {
+    background: url(../img/anonymizer.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
+
+}
+a {
+    text-align: center;
+    color: white;
+}
+a:visited {
+    color: white;
+}
 
 /* ==========================================================================
    Helper classes
